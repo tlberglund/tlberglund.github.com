@@ -1,24 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[TimBerglund.com]]></title>
-  <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
-  <link href="http://tlberglund.github.com/"/>
-  <updated>2012-08-03T11:05:11-05:00</updated>
-  <id>http://tlberglund.github.com/</id>
-  <author>
-    <name><![CDATA[Tim Berglund]]></name>
-    <email><![CDATA[tlberglund@gmail.com]]></email>
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Maven - TimBerglund.com</title>
+  <meta name="author" content="Tim Berglund">
 
   
-  <entry>
-    <title type="html"><![CDATA[The Maven]]></title>
-    <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-05:00</updated>
-    <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
-    <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
+  <meta name="description" content="After I wrote Oh, The Methods You&#8217;ll Compose last year, I started casting about for what I&#8217;d do next. I had just finished writing &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tlberglund.github.com/blog/2012/08/03/the-maven/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="TimBerglund.com" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-197748-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  <script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '50199a7cf5a1f5337a000018');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+</head>
+
+<body   >
+  <header role="banner"><hgroup id="blog-title">
+</hgroup>
+
+</header>
+  
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hand-drawn-box hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Maven</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-03T08:51:00-05:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
 <p>A long and interesting history, as it turns out. One filled with glued-on muttonchops, an awesome sister who knows far too much about period costumes and has more 19th-century-looking artifacts lying around her house than ought to be allowed, and a son who shows no small amount of promise as a composer. It is therefore with great pride that I present to you <em>The Maven</em>:</p>
 
@@ -280,32 +356,157 @@
 
 
 <p>Now would probably be a good time to re-read the full text of <a href="http://poestories.com/read/raven">the original work</a>. It&#8217;s truly a brilliant poem, without which this remix would not have been possible.</p>
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <entry>
-    <title type="html"><![CDATA[I Am a GitHubber]]></title>
-    <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-05:00</updated>
-    <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
-    <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 
-<p>I had several goals when I started. I wanted to become noteworthy, I wanted to work on cool tech, I wanted to build consequential systems, I wanted to make a lot of money, I wanted to build and mentor a team, and so on. I also wanted a new laptop every two years and to go to <a href="http://nofluffjuststuff.com">No Fluff</a> when it came to town. Was that so wrong?</p>
+<span class="byline author vcard">Posted by <span class="fn">Tim Berglund</span></span>
 
-<p>I reached a few of those goals. I successfully bought laptops and attended No Fluff four times before I joined the tour myself. I&#8217;m as noteworthy within my circles as I need to be. I&#8217;ve established a decent reputation as a conference speaker, with the promise of additional growth in the future. I have aligned myself with some technologies I think are cool. I&#8217;ve discovered a passion to teach, which I&#8217;ve been able to pursue rather fully. I don&#8217;t build a lot of truly consequential things—at least not on a grand cultural scale—but I have done good work that has been a practical means by which I could love my neighbor and produce small islands of order in a world of chaos. And the money has been fine.</p>
+      
 
-<p>I&#8217;ve never quite succeeded in building a team, though, and this has been an impediment to me. I really like the ethos of eating only what I kill, but in reality, that ethos is economically inefficient in the extreme. Hunter-gatherers do not accumulate wealth. Worse yet, I am deeply satisfied by mentoring people, which is hard to do alone. If you will forgive me a small shift in the metaphor from the paleolithic to the neolithic: hunter-gatherers may be permanently afraid of being hungry tomorrow, but shepherds without sheep are not even shepherds.</p>
 
-<p>A few months ago, I very rapidly came to a point where I had to decide what it is that I really care about. To what am I called? Is it entrepreneurship or is it building useful things together with other people? If my calling (to coin a Pauline phrase) is to build where no one else has laid a foundation, then I am compelled to stick it out on my own and fix the character defects that have kept me from achieving the goals I had not yet met. If, on the other hand, my calling is to build consequential things, and to shepherd other people in the process of building the same, then whether I work for a company I own or a company owned by someone else suddenly becomes unimportant. It became time for me to know whether I am essentially an engineer or an entrepreneur.</p>
 
-<p>With that question at hand, I found myself with a generous offer of employment from quite possibly the best technology company on the planet. I had already fallen in love with their culture and the deeply humanizing way they build things and organize work internally. I am truly excited about being able to work alongside and learn from some of the best in the business. And I am definitely not above being attracted by the cachet they hold as a beloved member of the development community. An opportunity like this is a very clarifying thing, and has helped me refine my understanding of my calling. I am most certainly an entrepreneur, but only incidentally. Essentially, I am an engineer. And so I go.</p>
 
-<p>This company doesn&#8217;t do titles and doesn&#8217;t assign you work, so I don&#8217;t really know what I&#8217;ll end up doing at the end of the day. But if I understand things correctly, my work will really only be limited to my own vision, innovation, and ability to inspire others to cooperate with me. I&#8217;m keenly aware of where my weaknesses lie as a person, but on these three counts, I should be just fine.</p>
 
-<p>This is the part where I should say it&#8217;s been difficult to say goodbye to five years of independence and the dream of building on my own the kind of company I am joining today. But the fact is, it wasn&#8217;t really difficult at all. Once the opportunity was clear to me, it was pretty easy to figure out where I was going, what I would spend the coming years doing, and what a nontrivial portion of my identity was going to become. And today, I am happy to be able to tell you what that is.</p>
 
-<p>As of today, I am a GitHubber.</p>
-]]></content>
-  </entry>
+
+
   
-</feed>
+
+
+<time datetime="2012-08-03T08:51:00-05:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/builds/'>builds</a>, <a class='category' href='/blog/categories/java-/'>java,</a>, <a class='category' href='/blog/categories/poetry-/'>poetry,</a>, <a class='category' href='/blog/categories/video-/'>video,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tlberglund.github.com/blog/2012/08/03/the-maven/" data-via="tlberglund" data-counturl="http://tlberglund.github.com/blog/2012/08/03/the-maven/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/08/01/i-am-a-githubber/" title="Previous Post: I Am a GitHubber">&laquo; I Am a GitHubber</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/08/03/the-maven/">The Maven</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/01/i-am-a-githubber/">I Am a GitHubber</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("tlberglund", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/tlberglund" class="twitter-follow-button" data-show-count="false">Follow @tlberglund</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/tlberglund">@tlberglund</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'tlberglund',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Tim Berglund -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

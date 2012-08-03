@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: video, | TimBerglund.com]]></title>
+  <link href="http://tlberglund.github.com/blog/categories/video-/atom.xml" rel="self"/>
+  <link href="http://tlberglund.github.com/"/>
+  <updated>2012-08-03T11:05:11-05:00</updated>
+  <id>http://tlberglund.github.com/</id>
+  <author>
+    <name><![CDATA[Tim Berglund]]></name>
+    <email><![CDATA[tlberglund@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Maven]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
+    <updated>2012-08-03T08:51:00-05:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
+    <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You'll Compose</a> last year, I started casting about for what I'd do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
+
+<p>A long and interesting history, as it turns out. One filled with glued-on muttonchops, an awesome sister who knows far too much about period costumes and has more 19th-century-looking artifacts lying around her house than ought to be allowed, and a son who shows no small amount of promise as a composer. It is therefore with great pride that I present to you <em>The Maven</em>:</p>
+
+<p><iframe width="640" height="510" src="http://www.youtube.com/embed/mBmExt184vc " frameborder="0" allowfullscreen></iframe></p>
+
+<h2>Full Text of <em>The Maven</em></h2>
+
+<p>```
+Once upon a midnight dreary, while I pondered weak and weary,
+Over files from a project which I'd never built before,
+While I nodded, nearly napping, suddenly the build was crapping,
+As if some build script's code was jacking, jacking up my source code store
+"'Tis a little bug," I muttered, "crapping on my source code store—
+Only this, and nothing more."</p>
+
+<p>Ah, distinctly I remember I was just a junior member,
+Of a staff who counted building code as something to ignore
+An open-source solution neatly I had sought to use completely
+In vain hope that I deplete the problems in my source code store—
+To fix the troubled build that kept a hold on my poor source code store—
+My broken build, for evermore.</p>
+
+<p>And the sullen sad surrender of my servers to the end of
+Days when code would build had lent me terrors never felt before
+So that now, to still the beating of my heart, I stood repeating
+"'Tis some little bug entreating entrance to my source code store—
+Some little bug entreating entrance to my source code store—
+Only this, and nothing more,"</p>
+
+<p>Presently I took to guessing how my build script might be messing
+Messing up the build I thought should work as in the days of yore
+But the fact is I was coding, not counting on the foul foreboding
+Of a Tool now overgrowing the bound'ries of its building chore
+It made its mark upon my code beyond its humble building chore
+It owned my build, still wanting more</p>
+
+<p>Deep into the POM file peering, long I stood there wondering, fearing,
+Doubting, dreaming dreams no coder ever dared to dream before;
+But the silence was unbroken (the error message gave no token),
+And my greatest fear unspoken was if again I'd have control
+Could I again believe myself to be the one who had control?
+To own my build, and nothing more?</p>
+
+<p>Back unto my laptop turning, all my soul within me burning,
+Soon again the build was crapping somewhat harder than before.
+"Surely," said I, "surely that is what happens when a depend'ncy graph is
+Stretched until the length of path is b’yond what man has seen before
+Let me see what jars are needed, and their dependencies explore—
+'Tis just the jars and nothing more!</p>
+
+<p>"Now adopted as our standard to build each project I commanded
+Maven be the tool that we would use to ease our building chore
+Straight away it took to forcing us to follow, not endorsing
+Its coerc’d opinions now divorcing sense from all my source code store
+It took control of every build inside my troubled source code store
+I built with Maven, evermore</p>
+
+<p>From the enterprise beguiling this tool my fancy into smiling,
+By the standard settings and conventions rigid that it bore,
+"Though thy brackets angled, Maven, thou," I said, "art sure no craven.
+Mayhap you'd ease the maintenance of my builds and their Sis'phean chore
+Tell me, can you ease the burden of my Sisyphean chore?"
+Quoth the Maven, "Nevermore."</p>
+
+<p>Much I marveled this ungainly tool to hear discourse so plainly,
+Though its answer little meaning—little relevancy bore;
+For we cannot help agreeing that no living human being
+Ever yet was blessed with speaking tools within his source code store—
+Tool or script within the central repo of his source code store,
+With such name as "Nevermore."</p>
+
+<p>But the Maven chosen boldly as our standard now spoke only
+That one word, as if its soul in that one word it did outpour.
+No more meaning then it printed—though its output scrolled and dinted—
+Till I scarcely more than hinted "Other builds I've built before;
+On the morrow it will leave me, as my builds have failed before."
+Then the tool said, "Nevermore."</p>
+
+<p>Startled at the stillness broken by reply so aptly spoken,
+"Doubtless," said I, "what it utters is its only stock and store,
+Written by a tortured coder whose melancholy's only token
+Left both code and coder broken till his tool one burden bore—
+Till the dirges of his hope that melancholy burden bore
+Of 'Never-nevermore.'</p>
+
+<p>"But the Maven still beguiling all my sad soul into smiling,
+Straight I wheeled a cushioned seat in front of build and editor;
+Then, upon the vinyl sinking, I betook myself to linking
+Fancy unto fancy, thinking what this ominous tool of yore—
+What this grim, ungainly, ghastly, gaunt, and ominous tool of yore
+Meant in croaking "Nevermore."</p>
+
+<p>Thus I sat engaged in guessing, but no syllable expressing
+To the tool whose fiery eyes now burned into my coder's core;
+This and more I sat divining, with my head at ease reclining
+On the Aeron's vinyl lining which the backlight gloated o'er,
+But whose charcoal vinyl lining which the backlight gloated o'er,
+My code shall see, ah, nevermore!</p>
+
+<p>Then, methought, the air grew denser, perfumed by an unseen censer
+And dependencies whose downloads glut my cache, and even more.
+"Wretch!" I cried, "VanZyl hath lent you—by these downloads he has sent you
+Respite, respite! and some Red Bull from my cursed source code store
+Quaff, oh quaff this can of Red Bull, and forget this source code store!"
+Quoth the Maven, "Nevermore."</p>
+
+<p>"Prophet!" said I, "thing of evil!—prophet still, build tool or devil!
+Whether useful tool, or whether bane of every coder on this floor
+Desolate yet all undaunted, on this code base yet enchanted—
+On this build by horror haunted—tell me truly, I implore—
+Is there a tool that would not own me? Tell me, tell me, I implore!"
+Quoth the Maven, "Nevermore."</p>
+
+<p>"Prophet!" said I, "thing of evil! Prophet still, build tool or devil!
+By that Heaven that bends above us—by that God we both adore—
+Tell this soul with sorrow laden if, by building with the Maven,
+Shall I never make the claim that I retain just some control?
+Could some little token of my build remain in my control?"
+Quoth the Maven, "Nevermore."</p>
+
+<p>"Be that word our sign of parting, building fiend!" I shrieked upstarting—
+"Get thee back to Sonatype deep in the night's Plutonian shore!
+Leave no jar file as a token of that lie thy soul hath spoken!
+Leave my project's build unbroken!—quit my central source code store!
+Take thy POM from out my heart, and take thy cache from my code store!
+"Quoth the Maven, "Nevermore."</p>
+
+<p>And the Maven, never quitting, still is sitting, still is sitting
+In that pallid project's repo deep inside my source code store;
+Its POM files' eyes have all the seeming of a demon's that is dreaming,
+And the backlight o'er me streaming throws my shadow on the floor;
+And my soul from out that shadow that lies floating on the floor
+Shall be lifted—nevermore!
+```</p>
+
+<p>Now would probably be a good time to re-read the full text of <a href="http://poestories.com/read/raven">the original work</a>. It's truly a brilliant poem, without which this remix would not have been possible.</p>
+]]></content>
+  </entry>
+  
+</feed>

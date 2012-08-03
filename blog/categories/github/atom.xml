@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: github | TimBerglund.com]]></title>
+  <link href="http://tlberglund.github.com/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://tlberglund.github.com/"/>
+  <updated>2012-08-03T11:05:11-05:00</updated>
+  <id>http://tlberglund.github.com/</id>
+  <author>
+    <name><![CDATA[Tim Berglund]]></name>
+    <email><![CDATA[tlberglund@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I Am a GitHubber]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
+    <updated>2012-08-01T14:22:00-05:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
+    <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that's a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn't want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
+
+<p>I had several goals when I started. I wanted to become noteworthy, I wanted to work on cool tech, I wanted to build consequential systems, I wanted to make a lot of money, I wanted to build and mentor a team, and so on. I also wanted a new laptop every two years and to go to <a href="http://nofluffjuststuff.com">No Fluff</a> when it came to town. Was that so wrong?</p>
+
+<p>I reached a few of those goals. I successfully bought laptops and attended No Fluff four times before I joined the tour myself. I'm as noteworthy within my circles as I need to be. I've established a decent reputation as a conference speaker, with the promise of additional growth in the future. I have aligned myself with some technologies I think are cool. I've discovered a passion to teach, which I've been able to pursue rather fully. I don't build a lot of truly consequential things—at least not on a grand cultural scale—but I have done good work that has been a practical means by which I could love my neighbor and produce small islands of order in a world of chaos. And the money has been fine.</p>
+
+<p>I've never quite succeeded in building a team, though, and this has been an impediment to me. I really like the ethos of eating only what I kill, but in reality, that ethos is economically inefficient in the extreme. Hunter-gatherers do not accumulate wealth. Worse yet, I am deeply satisfied by mentoring people, which is hard to do alone. If you will forgive me a small shift in the metaphor from the paleolithic to the neolithic: hunter-gatherers may be permanently afraid of being hungry tomorrow, but shepherds without sheep are not even shepherds.</p>
+
+<p>A few months ago, I very rapidly came to a point where I had to decide what it is that I really care about. To what am I called? Is it entrepreneurship or is it building useful things together with other people? If my calling (to coin a Pauline phrase) is to build where no one else has laid a foundation, then I am compelled to stick it out on my own and fix the character defects that have kept me from achieving the goals I had not yet met. If, on the other hand, my calling is to build consequential things, and to shepherd other people in the process of building the same, then whether I work for a company I own or a company owned by someone else suddenly becomes unimportant. It became time for me to know whether I am essentially an engineer or an entrepreneur.</p>
+
+<p>With that question at hand, I found myself with a generous offer of employment from quite possibly the best technology company on the planet. I had already fallen in love with their culture and the deeply humanizing way they build things and organize work internally. I am truly excited about being able to work alongside and learn from some of the best in the business. And I am definitely not above being attracted by the cachet they hold as a beloved member of the development community. An opportunity like this is a very clarifying thing, and has helped me refine my understanding of my calling. I am most certainly an entrepreneur, but only incidentally. Essentially, I am an engineer. And so I go.</p>
+
+<p>This company doesn't do titles and doesn't assign you work, so I don't really know what I'll end up doing at the end of the day. But if I understand things correctly, my work will really only be limited to my own vision, innovation, and ability to inspire others to cooperate with me. I'm keenly aware of where my weaknesses lie as a person, but on these three counts, I should be just fine.</p>
+
+<p>This is the part where I should say it's been difficult to say goodbye to five years of independence and the dream of building on my own the kind of company I am joining today. But the fact is, it wasn't really difficult at all. Once the opportunity was clear to me, it was pretty easy to figure out where I was going, what I would spend the coming years doing, and what a nontrivial portion of my identity was going to become. And today, I am happy to be able to tell you what that is.</p>
+
+<p>As of today, I am a GitHubber.</p>
+]]></content>
+  </entry>
+  
+</feed>
