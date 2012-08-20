@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: cassandra, | TimBerglund.com]]></title>
+  <link href="http://tlberglund.github.com/blog/categories/cassandra-/atom.xml" rel="self"/>
+  <link href="http://tlberglund.github.com/"/>
+  <updated>2012-08-20T10:05:51-06:00</updated>
+  <id>http://tlberglund.github.com/</id>
+  <author>
+    <name><![CDATA[Tim Berglund]]></name>
+    <email><![CDATA[tlberglund@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
+    <updated>2012-08-20T09:52:00-06:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
+    <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn't able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
+
+<p>As an MVP, I'll be able to participate in the occasional Cassandra webinar, blog in an official capacity, talk to press like a boss, and generally just enjoy an enhanced reputation in the world of the best scalable non-relational datastore on the planet. Best of all, I'll continue to speak on Cassandra when I'm able. Be sure to look for me to talk about what my new employer, <a href="http://github.com">GitHub</a>, is doing in this space.</p>
+
+<p>It's one thing for DataStax to recognize members of the C* community who have contributed to its success, but it's another thing entirely for them to shower generous gifts on them. When I got home early on Saturday morning from a week away, I was delighted to find that they had send me tee shirts, an <a href="http://instagram.com/p/OiSktSvAoj/">awesome pint glass</a> (pictured with homebrew), and <em>a new iPad</em>! Thanks, DataStax. This was truly a classy gift for a guy who loves you and your product.</p>
+]]></content>
+  </entry>
+  
+</feed>

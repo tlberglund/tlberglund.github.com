@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-08-05T06:31:08-05:00</updated>
+  <updated>2012-08-20T10:05:51-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,9 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
+    <updated>2012-08-20T09:52:00-06:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
+    <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn&#8217;t able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
+
+<p>As an MVP, I&#8217;ll be able to participate in the occasional Cassandra webinar, blog in an official capacity, talk to press like a boss, and generally just enjoy an enhanced reputation in the world of the best scalable non-relational datastore on the planet. Best of all, I&#8217;ll continue to speak on Cassandra when I&#8217;m able. Be sure to look for me to talk about what my new employer, <a href="http://github.com">GitHub</a>, is doing in this space.</p>
+
+<p>It&#8217;s one thing for DataStax to recognize members of the C* community who have contributed to its success, but it&#8217;s another thing entirely for them to shower generous gifts on them. When I got home early on Saturday morning from a week away, I was delighted to find that they had send me tee shirts, an <a href="http://instagram.com/p/OiSktSvAoj/">awesome pint glass</a> (pictured with homebrew), and <em>a new iPad</em>! Thanks, DataStax. This was truly a classy gift for a guy who loves you and your product.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-05:00</updated>
+    <updated>2012-08-03T08:51:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
@@ -286,7 +299,7 @@
   <entry>
     <title type="html"><![CDATA[I Am a GitHubber]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-05:00</updated>
+    <updated>2012-08-01T14:22:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
     <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 
