@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: cassandra, | TimBerglund.com]]></title>
-  <link href="http://tlberglund.github.com/blog/categories/cassandra-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: cassandra | TimBerglund.com]]></title>
+  <link href="http://tlberglund.github.com/blog/categories/cassandra/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-09-29T23:08:27-06:00</updated>
+  <updated>2012-10-01T05:57:46-07:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
-    <updated>2012-08-20T09:52:00-06:00</updated>
+    <updated>2012-08-20T09:52:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
     <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn't able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
 

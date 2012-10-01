@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-09-29T23:08:27-06:00</updated>
+  <updated>2012-10-01T05:57:46-07:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,25 +14,39 @@
 
   
   <entry>
+    <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
+    <updated>2012-09-30T20:33:00-07:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
+    <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
+
+<p>Whether we should have seen it coming or not, we had a great time. In fact, JourneyZone wasn&#8217;t merely JourneyZone. Witness <em>SurvivorZone 2012</em>:</p>
+
+<iframe src="http://player.vimeo.com/video/50468163" width="600" height="338" class="center" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[JavaZone 2012]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/17/javazone-2012/"/>
-    <updated>2012-09-17T11:59:00-06:00</updated>
+    <updated>2012-09-17T11:59:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/17/javazone-2012</id>
-    <content type="html"><![CDATA[<p>JavaZone 2012 is in the books now. I don&#8217;t mind saying I <em>love</em> that show and the city it&#8217;s in. Oslo might be an expensive place to visit, but it makes up for it by being beautiful and generally easy to visit.</p>
+    <content type="html"><![CDATA[<p>JavaZone 2012 is in the books now. I don&#8217;t mind saying I <em>love</em> that show and the city it&#8217;s in. Oslo might be an expensive place to visit, but it makes up for it by being beautiful and generally easy to get around.</p>
 
 <p>This was my third <a href="http://jz12.java.no">JavaZone</a>, but my first as a GitHubber. I actually submitted my proposals to the show before even beginning to consider going to work for GitHub, so there was no Git to be found in my talks as originally planned. Happily, the schedule had some holes open up at the last minute, so I was able to give three talks: a brand new lightning talk on Git internals, my talk on software architecture and form entitled <em><a href="https://vimeo.com/album/2079027/video/49367407">Then Our Buildings Shape Us</a></em>, and an improvised <a href="https://vimeo.com/album/2079027/video/49444883">Advanced Git</a> talk containing some new material I have recently been testing out. The response to the latter on Twitter was especially enthusiastic, with more than a few people saying it was their favorite talk of the show. Thank you, Norway! Honestly, I love you too.</p>
 
+<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/agir-beer.jpg" class="fancybox left" title="This beer was actually in Flåm, not Myrdal "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/agir-beer_m.jpg" width="300" height="200" alt="This beer was actually in Flåm, not Myrdal " /></a></p>
+
 <p>Next was JourneyZone, rechristened &#8220;SurvivorZone&#8221; for its 2012 instance. JourneyZone is a three-day weekend trip to some exotic destination in Norway that the conference offers to its speakers. This year, JourneyZone started with a 22-mile mountain bike ride across the mountains of western Norway. This is typical summer fare for active Norwegians (and does not seem at all odd to this active Coloradan), but we just happened to get caught in a nasty bit of weather on Friday afternoon. Five hours of cycling through 35-mph winds and freezing rain will <em>take the fight out of you</em>. Let&#8217;s just say I have never tasted beer as good as the beer I had in Myrdal that night, and leave it at that.</p>
 
-<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/agir-beer.jpg" class="fancybox" title="This beer was actually in Flåm, not Myrdal "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/agir-beer_m.jpg" width="300" height="200" alt="This beer was actually in Flåm, not Myrdal " /></a></p>
+<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/flam.jpg" class="fancybox right" title="Outside our hotel in Aurland "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/flam_m.jpg" width="300" height="200" alt="Outside our hotel in Aurland " /></a></p>
 
 <p>After thawing out and resting up, we took a train to Flåm to rest for the day and tour one of Norway&#8217;s largest microbreweries. If Flåm were trying not to be beautiful, it would count as the most spectacular failure known to the sons of men.</p>
 
-<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/flam.jpg" class="fancybox" title="Outside our hotel in Aurland "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/flam_m.jpg" width="300" height="200" alt="Outside our hotel in Aurland " /></a></p>
-
 <p>When we returned home on Sunday night, I hosted the second annual GitHub Oslo Drinkup.  Oslo developers came to talk about what they were doing with Git and with technology in general, joined by not a few JavaZone speakers and staff—Git fans all.</p>
 
-<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/oslo-drinkup.jpg" class="fancybox" title="2012 The Octocat makes its appearance in Oslo "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/oslo-drinkup.jpg" width="300" height="200" alt="2012 The Octocat makes its appearance in Oslo " /></a></p>
+<p><a href="http://s3.amazonaws.com/timberglund.com/photos/2012/09/oslo-drinkup.jpg" class="fancybox left" title="2012 The Octocat makes its appearance in Oslo "><img src="http://s3.amazonaws.com/timberglund.com/photos/2012/09/oslo-drinkup.jpg" width="300" height="200" alt="2012 The Octocat makes its appearance in Oslo " /></a></p>
 
 <p>Thanks to GitHub for the opportunity to evangelize our technology in places like this, to <a href="http://java.no">javaBin</a> and the JavaZone organizers for putting on such a great show. God willing, I will see you next September.</p>
 ]]></content>
@@ -41,7 +55,7 @@
   <entry>
     <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
-    <updated>2012-08-20T09:52:00-06:00</updated>
+    <updated>2012-08-20T09:52:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
     <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn&#8217;t able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
 
@@ -54,7 +68,7 @@
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-06:00</updated>
+    <updated>2012-08-03T08:51:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
@@ -324,7 +338,7 @@
   <entry>
     <title type="html"><![CDATA[I Am a GitHubber]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-06:00</updated>
+    <updated>2012-08-01T14:22:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
     <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 
