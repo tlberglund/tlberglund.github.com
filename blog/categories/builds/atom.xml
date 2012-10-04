@@ -4,7 +4,7 @@
   <title><![CDATA[Category: builds | TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/blog/categories/builds/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-10-01T05:57:46-07:00</updated>
+  <updated>2012-10-04T11:49:49-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-07:00</updated>
+    <updated>2012-08-03T08:51:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You'll Compose</a> last year, I started casting about for what I'd do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 

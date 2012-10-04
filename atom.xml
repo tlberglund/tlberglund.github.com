@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-10-01T05:57:46-07:00</updated>
+  <updated>2012-10-04T11:49:49-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,9 +14,31 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Speaking at DJUG Next Week]]></title>
+    <link href="http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week/"/>
+    <updated>2012-10-04T11:43:00-06:00</updated>
+    <id>http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week</id>
+    <content type="html"><![CDATA[<p>There&#8217;s nothing quite like a home game, so I must say I&#8217;m happy to be speaking at <a href="http:/denverjug.org">DJUG</a> next week on Wednesday, October 10, 2012. The topic will be GitHub Power Tools, including such amazing topics as:</p>
+
+<ul>
+<li>Pull Requests</li>
+<li>Issue Tracking</li>
+<li>Project Sites</li>
+<li>Custom domain names</li>
+<li>Team and organization access controls</li>
+<li>Wikis</li>
+<li>OPTIONAL BONUS: Integration with third-party services</li>
+</ul>
+
+
+<p>It&#8217;s like the fun never ends! I&#8217;d love to see all my Denver friends there, and join you for drinks afterward.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
-    <updated>2012-09-30T20:33:00-07:00</updated>
+    <updated>2012-09-30T20:33:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
     <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
 
@@ -30,7 +52,7 @@
   <entry>
     <title type="html"><![CDATA[JavaZone 2012]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/17/javazone-2012/"/>
-    <updated>2012-09-17T11:59:00-07:00</updated>
+    <updated>2012-09-17T11:59:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/17/javazone-2012</id>
     <content type="html"><![CDATA[<p>JavaZone 2012 is in the books now. I don&#8217;t mind saying I <em>love</em> that show and the city it&#8217;s in. Oslo might be an expensive place to visit, but it makes up for it by being beautiful and generally easy to get around.</p>
 
@@ -55,7 +77,7 @@
   <entry>
     <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
-    <updated>2012-08-20T09:52:00-07:00</updated>
+    <updated>2012-08-20T09:52:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
     <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn&#8217;t able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
 
@@ -68,7 +90,7 @@
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-07:00</updated>
+    <updated>2012-08-03T08:51:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
@@ -338,7 +360,7 @@
   <entry>
     <title type="html"><![CDATA[I Am a GitHubber]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-07:00</updated>
+    <updated>2012-08-01T14:22:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
     <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 
