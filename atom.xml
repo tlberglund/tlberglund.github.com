@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2012-10-04T11:49:49-06:00</updated>
+  <updated>2014-03-31T09:02:56-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Goodbye, GitHub; Hello, DataStax]]></title>
+    <link href="http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax/"/>
+    <updated>2014-03-31T08:21:00-06:00</updated>
+    <id>http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve had a great time at GitHub over the past year and a half. I&#8217;ve traveled to plenty of interesting places, taught thousands of developers how to do a better job working together, and learned quite a bit myself from GitHub&#8217;s unique approach to organizational structure. It&#8217;s a tautology to say that the experience has changed me, but I think time will reveal that it has changed me in important ways. Hopefully I can write about some of this in the future.</p>
+
+<p>GitHub is a great place to work, but the landscape of one&#8217;s career is constantly shifting, and staying on top of one&#8217;s own calling requires constant adaptation and re-evaluation. Managing a career like like climbing a mountain, except it&#8217;s a mountain whose <a href="https://www.youtube.com/watch?v=IdcJLwKIoFo">elevation constantly shifts</a> in response to your own footsteps. My current path has led me, as of today, to leave GitHub for an exciting new opportunity.</p>
+
+<p>I&#8217;ll be joining DataStax as their Director for Technical Enablement. I&#8217;ve know the folks at DataStax for years, and even did some contract work for them back when I was on my own. When they offered me an interesting position doing what I love, I jumped at the chance. It doesn&#8217;t hurt that they&#8217;re a classy bunch of people who seem to have figured out how to combine a startup&#8217;s pragmatism and adaptability with the structures and attitudes of a mature business.</p>
+
+<p>Starting a week from today, I&#8217;ll be focused on helping DataStax channel partners be better at delivering Cassandra-based solutions to their customers. Apache Cassandra and DataStax Enterprise are complex products that solve difficult problems, and people need help getting that job done. I&#8217;ll be doing a lot of the same sorts of things I&#8217;ve been doing of the past few years—conference talks, classes, workshops, and videos—but focused on the indirect sales channel instead of the end user. This is a whole new world for me, and I&#8217;m really excited to jump into it. I will do my best to keep you posted here with what I learn.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Speaking at DJUG Next Week]]></title>
     <link href="http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week/"/>
     <updated>2012-10-04T11:43:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week</id>
-    <content type="html"><![CDATA[<p>There&#8217;s nothing quite like a home game, so I must say I&#8217;m happy to be speaking at <a href="http:/denverjug.org">DJUG</a> next week on Wednesday, October 10, 2012. The topic will be GitHub Power Tools, including such amazing topics as:</p>
+    <content type="html"><![CDATA[<p>There&#8217;s nothing quite like a home game, so I must say I&#8217;m happy to be speaking at <a href="http://denverjug.org">DJUG</a> next week on Wednesday, October 10, 2012. The topic will be GitHub Power Tools, including such amazing topics as:</p>
 
 <ul>
 <li>Pull Requests</li>
@@ -32,6 +47,8 @@
 
 
 <p>It&#8217;s like the fun never ends! I&#8217;d love to see all my Denver friends there, and join you for drinks afterward.</p>
+
+<p>DJUG meets at the offices of <a href="http://fullcontact.com">FullContact</a> at <a href="http://goo.gl/maps/vQUiV">1621 18th Street Suite 40 Denver, CO 80202</a>. Food starts at 5:30pm, and my talk at 6:00pm.</p>
 ]]></content>
   </entry>
   
