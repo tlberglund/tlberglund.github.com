@@ -2,40 +2,44 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/</loc>
-        <lastmod>2012-10-01T06:57:16-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/2012/08/03/the-maven/</loc>
-        <lastmod>2012-10-01T06:57:25-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/
         </loc>
-        <lastmod>2012-10-01T06:57:20-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/2012/09/17/javazone-2012/</loc>
-        <lastmod>2012-10-01T06:57:29-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/</loc>
-        <lastmod>2012-10-01T06:55:49-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week/</loc>
-        <lastmod>2012-10-04T14:46:01-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax/</loc>
-        <lastmod>2014-03-31T09:42:18-06:00</lastmod>
+        <lastmod>2014-11-06T15:30:26-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/</loc>
+        <lastmod>2015-11-09T06:37:40-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/blog/archives/</loc>
-        <lastmod>2014-03-31T09:42:18-06:00</lastmod>
+        <lastmod>2015-11-09T06:37:40-07:00</lastmod>
     </url>
     <url>
         <loc>http://tlberglund.github.com/</loc>
-        <lastmod>2014-03-31T09:42:18-06:00</lastmod>
+        <lastmod>2015-11-09T06:37:40-07:00</lastmod>
     </url>
 </urlset>

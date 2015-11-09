@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2014-03-31T09:42:29-06:00</updated>
+  <updated>2015-11-09T07:25:21-07:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I Wandered Lonely As a Cloud App]]></title>
+    <link href="http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/"/>
+    <updated>2015-11-09T06:30:00-07:00</updated>
+    <id>http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app</id>
+    <content type="html"><![CDATA[<p>I wandered lonely as a cloud app<br/>
+Late of Heroku purchases<br/>
+When all at once I saw a crowd,<br/>
+A host of microservices<br/>
+Beyond the build, beneath the stats<br/>
+My code in chunks and bits thereat</p>
+
+<p>Continuous was the app deployed<br/>
+In all its many-splendored parts<br/>
+They spread in Dockerfiles alloyed<br/>
+With CoreOS hosts&#8217; very hearts<br/>
+Ten thousand saw I when I looked<br/>
+At Kubernetes’ dashboard hooks</p>
+
+<p>The Mesos cluster’s web display<br/>
+Showed every resource fully used<br/>
+Yet the goal at start of day<br/>
+Was just an app for scraping news<br/>
+I gazed—and gazed—but little thought<br/>
+That wealth to me this stack had brought</p>
+
+<p>Now oft, when at my screen I stare,<br/>
+Commenting on Hacker News,<br/>
+My only company, despair<br/>
+And the bill from EC2,<br/>
+Then filled my heart with sorrow is—<br/>
+The sorrow of the services.</p>
+
+<p>Inspired by <a href="http://blog.circleci.com/its-the-future/">Paul Biggar’s fictional dialog</a> on the same topic. See also <a href="https://en.wikipedia.org/wiki/I_Wandered_Lonely_as_a_Cloud">the Wordsworth original</a> of which I frankly am not too fond, but for which I am grateful on the occasion of my own fooling about.</p>
+
+<p>DISCLAIMER: since I have friends who work with some of the named technologies, I should make it clear that I am not down on any of them. As I have <a href="https://player.oreilly.com/videos/9781491924914">said elsewhere</a> (shameless plug!), distributed systems are bad in just about every way and should be avoided when possible. Fortunately—since I make my living in distributed systems—sometimes they are the only way to do the awesome thing you want to do.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Goodbye, GitHub; Hello, DataStax]]></title>
