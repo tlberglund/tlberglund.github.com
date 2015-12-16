@@ -10,3 +10,7 @@
   margin: 0 auto;
   display: block;
 }
+
+.entry-content {
+  margin-bottom: 2em;
+}
