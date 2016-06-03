@@ -4,7 +4,7 @@
   <title><![CDATA[Category: video | TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/blog/categories/video/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2016-05-03T07:40:09-06:00</updated>
+  <updated>2016-06-03T06:05:27+01:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,9 +14,215 @@
 
   
   <entry>
+    <title type="html"><![CDATA[The Rime of the Product Manager]]></title>
+    <link href="http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager/"/>
+    <updated>2016-05-22T08:56:00+01:00</updated>
+    <id>http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager</id>
+    <content type="html"><![CDATA[<p>After I wrote <a href="http://timberglund.com/blog/2012/08/03/the-maven/"><em>The Maven</em></a>, I started thinking about what poem I would hack next. I didn't intend to land on <a href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">another Romantic</a>--allegedly I do not even like the Romantics very much--but then the title just came to me one day. I want to say "and then the rest happened quickly," but in fact principal photography took place over a total of four days spread over more than two years. Editing and the <a href="https://zachberglund.com">the composer's</a> work came together quite a bit more quickly than that, and only at that point could the rest be declared to be history.</p>
+
+<p>My plan for <em>Rime</em> was to produce a more complex film with multiple sets and multiple actors. This is a difficult undertaking for professionals, much less unschooled hacks who are trying to produce the least amateurish artifact they possibly can. I can say two things about the process: it is apparently difficult to get right, and it is one of the most enjoyable things I do.</p>
+
+<p>With that, I present to you <em>The Rime of the Product Manager</em>:</p>
+
+<p><iframe src="http://player.vimeo.com/video/168461051" width="600" height="338" class="center" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+
+<p>I won't drag you through a detailed account of what I meant to convey with the film, but I will say that my message changed from the time I originally hatched the idea to the time I finished editing. The place I landed is hopefully obvious enough. Once again, because artistic license sometimes pulls me to extremes, I should make it clear that it is not my opinion that the role of the product manager (or "product owner," which is more precise but does not scan) is a bad thing, nor on the other hand do I think Scrum is somehow destructive.</p>
+
+<p>Finally, you might just consider giving the original poem, <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/43997">The Rime of the Ancient Mariner</a>, a read. You can also clone and build the <a href="https://github.com/tlberglund/rotpm">Asciidoc-based screenplay</a>, or just read the full text here:</p>
+
+<h2><em>The Rime of the Product Manager</em></h2>
+
+<p>```
+A tired Product Manager
+Spies a group of friends
+He grabs the young one and proceeds
+His great wisdom to lend</p>
+
+<p>The Conference-Goer stands chagrinned
+His eyes and mouth agape
+The PM grabs his hand and then
+His friends make their escape</p>
+
+<p>The Conference-Goer took his seat:
+He cannot choose but hear;
+And so spoke on that tired man,
+The Product Manager.</p>
+
+<p>We started in a coffee shop
+Upon a city street
+UI mocks were drink to us
+And code our only meat</p>
+
+<p>We coded long, we coded hard
+We coded day and night
+We coded like our days would end
+Unless we code aright</p>
+
+<p>None among us told his peer
+The features he should build
+If we'd have played the manager
+Our vision we'd have killed</p>
+
+<p>Then one dark night, we launched the site
+Our hearts besot with hope
+In Graphite's thrall we watched it all
+And dread caught every throat</p>
+
+<p>We watched the charts all day and night
+Frowning, sighing gently
+Our only goal, the favor of
+The Valley Cognoscienti</p>
+
+<p>We got the mentions we were after
+Traffic started spiking
+The cluster groaned under the load
+All servers running to the hilt
+We dared to think we might have built
+A product of our liking</p>
+
+<p>We bathed in growing revenue
+With metrics in our favor
+Subscribers new, renewals too
+Made these the days to savor</p>
+
+<p>The VCs saw what we had built
+And offered to us terms
+That we could scarcely not accept
+—so much we had to learn!</p>
+
+<p>We closed an A round and we thought
+Success was now in hand!
+Who could but think that capital
+Had ratified our plans?</p>
+
+<p>With all due youthful confidence
+We set ourselves to hiring
+We poached, cajoled, and outbid for
+The staff of our desiring</p>
+
+<p>And what with shiny laptops humming
+Could all these hackers do?
+They built the features users wanted
+Feature on feature accrued</p>
+
+<p>We coded long, we coded hard
+But a hacker needs to rest!
+With VC funds we bought some cheer
+And wine and gin and Scotch and beer
+We worked and drank and worked 'til near
+Our work was not our best</p>
+
+<p>Now such a team could scarce avoid
+A Providential chastening
+No one could know that this new flow
+Had been our failure hastening</p>
+
+<p>Those early days of coding hard
+In cafes on the cheap?
+Were gone and in their place we’d built
+A comp’ny growing weak</p>
+
+<p>No longer was each eager coder
+Focused on our users
+No vision animated them
+No judgment was within their ken
+We looked at our new features then
+We judged these features losers</p>
+
+<p>We all agreed the thing we’d need
+Without a doubt averred:
+I’d hang up coding and become
+A Product Manager</p>
+
+<p>The founders’ product vision now
+Came through the medium
+Of story cards and backlogged scars
+Of endless tedium</p>
+
+<p>And I had done a hellish thing,
+And it would work 'em woe:
+For all had seen, I'd killed the team
+That made the comp’ny grow.
+You wretch! said they, the team to slay,
+That made the comp’ny grow!</p>
+
+<p>Day after day, day after day,
+We stuck, no more did we code;
+As idle as a painted team
+Upon a painted repo</p>
+
+<p>Product, product everywhere
+And happiness did shrink
+Product, product everywhere
+Nor anyone to think</p>
+
+<p>Subscription growth had flatlined and
+Our runway shrank to nothing
+Subscriber acquisition cost
+So bloated we were blushing</p>
+
+<p>That dream team that we'd hired then?
+No longer could they trust
+We'd have an exit worth their time
+So left they as they must</p>
+
+<p>If it were only staff I lost
+Survive I just have might
+Buy my partner joined the tide
+And left me in my plight</p>
+
+<p>There was nothing left to build
+The vision we had started
+I could only turn and leave
+A founder, broken-hearted</p>
+
+<p>And now I fly from show to show
+Spreading far my story
+To coders young who've yet to learn
+What made my heart so hoary</p>
+
+<p>It doesn't matter what your scale
+Nor where you got your funding
+If devs don't love their users then
+Your futures will be plunging</p>
+
+<p>The vision that you started with
+To set the world aright?
+Must be spread to everyone
+Who gives your product life</p>
+
+<p>The sub-creators of the world
+Must love the things they make
+If you would lead, then you're the one
+To spark their hearts awake</p>
+
+<p>They can't be bought with snacks or drink
+And process least of all
+Can bring the flush of health into
+A coder once he fall</p>
+
+<p>And now I fly from show to show
+Telling wide my story
+To coders young who may yet learn
+Where lies their future glory</p>
+
+<p>The old PM, whose eye is bright,
+Whose blog with age is stale,
+Is gone; and now the Conference-Goer
+Departs the conference vale.</p>
+
+<p>He leaves like one who has been stunned,
+And is of sense forlorn:
+A sadder, wiser hacker then
+He rose the morrow morn.
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Journey Zone 2015: PolarZone]]></title>
     <link href="http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone/"/>
-    <updated>2015-12-14T07:25:00-07:00</updated>
+    <updated>2015-12-14T07:25:00+00:00</updated>
     <id>http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone</id>
     <content type="html"><![CDATA[<p>The <a href="http://2015.javazone.no/">2015 JavaZone</a> was the same amazing event it always is: world-class speakers, JavaZone's ground-breaking <em>continuous food</em> concept, and an expo floor that's actually fun to walk around. Like any great conference, it's a place to learn and reconnect with friends—some whom I only get to see once a year.</p>
 
@@ -29,7 +235,7 @@
   <entry>
     <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
-    <updated>2012-09-30T20:33:00-06:00</updated>
+    <updated>2012-09-30T20:33:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
     <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
 
@@ -42,7 +248,7 @@
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-06:00</updated>
+    <updated>2012-08-03T08:51:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You'll Compose</a> last year, I started casting about for what I'd do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 

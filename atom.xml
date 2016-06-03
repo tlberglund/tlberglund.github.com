@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2016-05-03T07:40:09-06:00</updated>
+  <updated>2016-06-03T06:05:27+01:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,9 +14,397 @@
 
   
   <entry>
+    <title type="html"><![CDATA[The Rime of the Product Manager]]></title>
+    <link href="http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager/"/>
+    <updated>2016-05-22T08:56:00+01:00</updated>
+    <id>http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager</id>
+    <content type="html"><![CDATA[<p>After I wrote <a href="http://timberglund.com/blog/2012/08/03/the-maven/"><em>The Maven</em></a>, I started thinking about what poem I would hack next. I didn&#8217;t intend to land on <a href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">another Romantic</a>&#8211;allegedly I do not even like the Romantics very much&#8211;but then the title just came to me one day. I want to say &#8220;and then the rest happened quickly,&#8221; but in fact principal photography took place over a total of four days spread over more than two years. Editing and the <a href="https://zachberglund.com">the composer&#8217;s</a> work came together quite a bit more quickly than that, and only at that point could the rest be declared to be history.</p>
+
+<p>My plan for <em>Rime</em> was to produce a more complex film with multiple sets and multiple actors. This is a difficult undertaking for professionals, much less unschooled hacks who are trying to produce the least amateurish artifact they possibly can. I can say two things about the process: it is apparently difficult to get right, and it is one of the most enjoyable things I do.</p>
+
+<p>With that, I present to you <em>The Rime of the Product Manager</em>:</p>
+
+<iframe src="http://player.vimeo.com/video/168461051" width="600" height="338" class="center" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>I won&#8217;t drag you through a detailed account of what I meant to convey with the film, but I will say that my message changed from the time I originally hatched the idea to the time I finished editing. The place I landed is hopefully obvious enough. Once again, because artistic license sometimes pulls me to extremes, I should make it clear that it is not my opinion that the role of the product manager (or &#8220;product owner,&#8221; which is more precise but does not scan) is a bad thing, nor on the other hand do I think Scrum is somehow destructive.</p>
+
+<p>Finally, you might just consider giving the original poem, <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/43997">The Rime of the Ancient Mariner</a>, a read. You can also clone and build the <a href="https://github.com/tlberglund/rotpm">Asciidoc-based screenplay</a>, or just read the full text here:</p>
+
+<h2><em>The Rime of the Product Manager</em></h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+<span class='line-number'>126</span>
+<span class='line-number'>127</span>
+<span class='line-number'>128</span>
+<span class='line-number'>129</span>
+<span class='line-number'>130</span>
+<span class='line-number'>131</span>
+<span class='line-number'>132</span>
+<span class='line-number'>133</span>
+<span class='line-number'>134</span>
+<span class='line-number'>135</span>
+<span class='line-number'>136</span>
+<span class='line-number'>137</span>
+<span class='line-number'>138</span>
+<span class='line-number'>139</span>
+<span class='line-number'>140</span>
+<span class='line-number'>141</span>
+<span class='line-number'>142</span>
+<span class='line-number'>143</span>
+<span class='line-number'>144</span>
+<span class='line-number'>145</span>
+<span class='line-number'>146</span>
+<span class='line-number'>147</span>
+<span class='line-number'>148</span>
+<span class='line-number'>149</span>
+<span class='line-number'>150</span>
+<span class='line-number'>151</span>
+<span class='line-number'>152</span>
+<span class='line-number'>153</span>
+<span class='line-number'>154</span>
+<span class='line-number'>155</span>
+<span class='line-number'>156</span>
+<span class='line-number'>157</span>
+<span class='line-number'>158</span>
+<span class='line-number'>159</span>
+<span class='line-number'>160</span>
+<span class='line-number'>161</span>
+<span class='line-number'>162</span>
+<span class='line-number'>163</span>
+<span class='line-number'>164</span>
+<span class='line-number'>165</span>
+<span class='line-number'>166</span>
+<span class='line-number'>167</span>
+<span class='line-number'>168</span>
+<span class='line-number'>169</span>
+<span class='line-number'>170</span>
+<span class='line-number'>171</span>
+<span class='line-number'>172</span>
+<span class='line-number'>173</span>
+<span class='line-number'>174</span>
+<span class='line-number'>175</span>
+<span class='line-number'>176</span>
+<span class='line-number'>177</span>
+<span class='line-number'>178</span>
+<span class='line-number'>179</span>
+<span class='line-number'>180</span>
+<span class='line-number'>181</span>
+<span class='line-number'>182</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>A tired Product Manager
+</span><span class='line'>Spies a group of friends
+</span><span class='line'>He grabs the young one and proceeds
+</span><span class='line'>His great wisdom to lend
+</span><span class='line'>
+</span><span class='line'>The Conference-Goer stands chagrinned
+</span><span class='line'>His eyes and mouth agape
+</span><span class='line'>The PM grabs his hand and then
+</span><span class='line'>His friends make their escape
+</span><span class='line'>
+</span><span class='line'>The Conference-Goer took his seat:
+</span><span class='line'>He cannot choose but hear;
+</span><span class='line'>And so spoke on that tired man,
+</span><span class='line'>The Product Manager.
+</span><span class='line'>
+</span><span class='line'>We started in a coffee shop
+</span><span class='line'>Upon a city street
+</span><span class='line'>UI mocks were drink to us
+</span><span class='line'>And code our only meat
+</span><span class='line'>
+</span><span class='line'>We coded long, we coded hard
+</span><span class='line'>We coded day and night
+</span><span class='line'>We coded like our days would end
+</span><span class='line'>Unless we code aright
+</span><span class='line'>
+</span><span class='line'>None among us told his peer
+</span><span class='line'>The features he should build
+</span><span class='line'>If we'd have played the manager
+</span><span class='line'>Our vision we'd have killed
+</span><span class='line'>
+</span><span class='line'>Then one dark night, we launched the site
+</span><span class='line'>Our hearts besot with hope
+</span><span class='line'>In Graphite's thrall we watched it all
+</span><span class='line'>And dread caught every throat
+</span><span class='line'>
+</span><span class='line'>We watched the charts all day and night
+</span><span class='line'>Frowning, sighing gently
+</span><span class='line'>Our only goal, the favor of
+</span><span class='line'>The Valley Cognoscienti
+</span><span class='line'>
+</span><span class='line'>We got the mentions we were after
+</span><span class='line'>Traffic started spiking
+</span><span class='line'>The cluster groaned under the load
+</span><span class='line'>All servers running to the hilt
+</span><span class='line'>We dared to think we might have built
+</span><span class='line'>A product of our liking
+</span><span class='line'>
+</span><span class='line'>We bathed in growing revenue
+</span><span class='line'>With metrics in our favor
+</span><span class='line'>Subscribers new, renewals too
+</span><span class='line'>Made these the days to savor
+</span><span class='line'>
+</span><span class='line'>The VCs saw what we had built
+</span><span class='line'>And offered to us terms
+</span><span class='line'>That we could scarcely not accept
+</span><span class='line'>—so much we had to learn!
+</span><span class='line'>
+</span><span class='line'>We closed an A round and we thought
+</span><span class='line'>Success was now in hand!
+</span><span class='line'>Who could but think that capital
+</span><span class='line'>Had ratified our plans?
+</span><span class='line'>
+</span><span class='line'>With all due youthful confidence
+</span><span class='line'>We set ourselves to hiring
+</span><span class='line'>We poached, cajoled, and outbid for
+</span><span class='line'>The staff of our desiring
+</span><span class='line'>
+</span><span class='line'>And what with shiny laptops humming
+</span><span class='line'>Could all these hackers do?
+</span><span class='line'>They built the features users wanted
+</span><span class='line'>Feature on feature accrued
+</span><span class='line'>
+</span><span class='line'>We coded long, we coded hard
+</span><span class='line'>But a hacker needs to rest!
+</span><span class='line'>With VC funds we bought some cheer
+</span><span class='line'>And wine and gin and Scotch and beer
+</span><span class='line'>We worked and drank and worked 'til near
+</span><span class='line'>Our work was not our best
+</span><span class='line'>
+</span><span class='line'>Now such a team could scarce avoid
+</span><span class='line'>A Providential chastening
+</span><span class='line'>No one could know that this new flow
+</span><span class='line'>Had been our failure hastening
+</span><span class='line'>
+</span><span class='line'>Those early days of coding hard
+</span><span class='line'>In cafes on the cheap?
+</span><span class='line'>Were gone and in their place we’d built
+</span><span class='line'>A comp’ny growing weak
+</span><span class='line'>
+</span><span class='line'>No longer was each eager coder
+</span><span class='line'>Focused on our users
+</span><span class='line'>No vision animated them
+</span><span class='line'>No judgment was within their ken
+</span><span class='line'>We looked at our new features then
+</span><span class='line'>We judged these features losers
+</span><span class='line'>
+</span><span class='line'>We all agreed the thing we’d need
+</span><span class='line'>Without a doubt averred:
+</span><span class='line'>I’d hang up coding and become
+</span><span class='line'>A Product Manager
+</span><span class='line'>
+</span><span class='line'>The founders’ product vision now
+</span><span class='line'>Came through the medium
+</span><span class='line'>Of story cards and backlogged scars
+</span><span class='line'>Of endless tedium
+</span><span class='line'>
+</span><span class='line'>And I had done a hellish thing,
+</span><span class='line'>And it would work 'em woe:
+</span><span class='line'>For all had seen, I'd killed the team
+</span><span class='line'>That made the comp’ny grow.
+</span><span class='line'>You wretch! said they, the team to slay,
+</span><span class='line'>That made the comp’ny grow!
+</span><span class='line'>
+</span><span class='line'>Day after day, day after day,
+</span><span class='line'>We stuck, no more did we code;
+</span><span class='line'>As idle as a painted team
+</span><span class='line'>Upon a painted repo
+</span><span class='line'>
+</span><span class='line'>Product, product everywhere
+</span><span class='line'>And happiness did shrink
+</span><span class='line'>Product, product everywhere
+</span><span class='line'>Nor anyone to think
+</span><span class='line'>
+</span><span class='line'>Subscription growth had flatlined and
+</span><span class='line'>Our runway shrank to nothing
+</span><span class='line'>Subscriber acquisition cost
+</span><span class='line'>So bloated we were blushing
+</span><span class='line'>
+</span><span class='line'>That dream team that we'd hired then?
+</span><span class='line'>No longer could they trust
+</span><span class='line'>We'd have an exit worth their time
+</span><span class='line'>So left they as they must
+</span><span class='line'>
+</span><span class='line'>If it were only staff I lost
+</span><span class='line'>Survive I just have might
+</span><span class='line'>Buy my partner joined the tide
+</span><span class='line'>And left me in my plight
+</span><span class='line'>
+</span><span class='line'>There was nothing left to build
+</span><span class='line'>The vision we had started
+</span><span class='line'>I could only turn and leave
+</span><span class='line'>A founder, broken-hearted
+</span><span class='line'>
+</span><span class='line'>And now I fly from show to show
+</span><span class='line'>Spreading far my story
+</span><span class='line'>To coders young who've yet to learn
+</span><span class='line'>What made my heart so hoary
+</span><span class='line'>
+</span><span class='line'>It doesn't matter what your scale
+</span><span class='line'>Nor where you got your funding
+</span><span class='line'>If devs don't love their users then
+</span><span class='line'>Your futures will be plunging
+</span><span class='line'>
+</span><span class='line'>The vision that you started with
+</span><span class='line'>To set the world aright?
+</span><span class='line'>Must be spread to everyone
+</span><span class='line'>Who gives your product life
+</span><span class='line'>
+</span><span class='line'>The sub-creators of the world
+</span><span class='line'>Must love the things they make
+</span><span class='line'>If you would lead, then you're the one
+</span><span class='line'>To spark their hearts awake
+</span><span class='line'>
+</span><span class='line'>They can't be bought with snacks or drink
+</span><span class='line'>And process least of all
+</span><span class='line'>Can bring the flush of health into
+</span><span class='line'>A coder once he fall
+</span><span class='line'>
+</span><span class='line'>And now I fly from show to show
+</span><span class='line'>Telling wide my story
+</span><span class='line'>To coders young who may yet learn
+</span><span class='line'>Where lies their future glory
+</span><span class='line'>
+</span><span class='line'>The old PM, whose eye is bright,
+</span><span class='line'>Whose blog with age is stale,
+</span><span class='line'>Is gone; and now the Conference-Goer
+</span><span class='line'>Departs the conference vale.
+</span><span class='line'>
+</span><span class='line'>He leaves like one who has been stunned,
+</span><span class='line'>And is of sense forlorn:
+</span><span class='line'>A sadder, wiser hacker then
+</span><span class='line'>He rose the morrow morn.</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Stopping by the Training Room on a Snowy Morning]]></title>
     <link href="http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning/"/>
-    <updated>2016-05-03T05:47:00-06:00</updated>
+    <updated>2016-05-03T05:47:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning</id>
     <content type="html"><![CDATA[<p>With apologies, as usual, to the <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/42891">original author</a>:</p>
 
@@ -45,7 +433,7 @@ And miles to earn before I sleep</p>
   <entry>
     <title type="html"><![CDATA[Journey Zone 2015: PolarZone]]></title>
     <link href="http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone/"/>
-    <updated>2015-12-14T07:25:00-07:00</updated>
+    <updated>2015-12-14T07:25:00+00:00</updated>
     <id>http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone</id>
     <content type="html"><![CDATA[<p>The <a href="http://2015.javazone.no/">2015 JavaZone</a> was the same amazing event it always is: world-class speakers, JavaZone&#8217;s ground-breaking <em>continuous food</em> concept, and an expo floor that&#8217;s actually fun to walk around. Like any great conference, it&#8217;s a place to learn and reconnect with friends—some whom I only get to see once a year.</p>
 
@@ -59,7 +447,7 @@ And miles to earn before I sleep</p>
   <entry>
     <title type="html"><![CDATA[I Wandered Lonely As a Cloud App]]></title>
     <link href="http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/"/>
-    <updated>2015-11-09T06:30:00-07:00</updated>
+    <updated>2015-11-09T06:30:00+00:00</updated>
     <id>http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app</id>
     <content type="html"><![CDATA[<p>I wandered lonely as a cloud app<br/>
 Late of Heroku purchases<br/>
@@ -98,7 +486,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Goodbye, GitHub; Hello, DataStax]]></title>
     <link href="http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax/"/>
-    <updated>2014-03-31T08:21:00-06:00</updated>
+    <updated>2014-03-31T08:21:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax</id>
     <content type="html"><![CDATA[<p>I&#8217;ve had a great time at GitHub over the past year and a half. I&#8217;ve traveled to plenty of interesting places, taught thousands of developers how to do a better job working together, and learned quite a bit myself from GitHub&#8217;s unique approach to organizational structure. It&#8217;s a tautology to say that the experience has changed me, but I think time will reveal that it has changed me in important ways. Hopefully I can write about some of this in the future.</p>
 
@@ -113,7 +501,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Speaking at DJUG Next Week]]></title>
     <link href="http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week/"/>
-    <updated>2012-10-04T11:43:00-06:00</updated>
+    <updated>2012-10-04T11:43:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week</id>
     <content type="html"><![CDATA[<p>There&#8217;s nothing quite like a home game, so I must say I&#8217;m happy to be speaking at <a href="http://denverjug.org">DJUG</a> next week on Wednesday, October 10, 2012. The topic will be GitHub Power Tools, including such amazing topics as:</p>
 
@@ -137,7 +525,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
-    <updated>2012-09-30T20:33:00-06:00</updated>
+    <updated>2012-09-30T20:33:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
     <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
 
@@ -151,7 +539,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[JavaZone 2012]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/17/javazone-2012/"/>
-    <updated>2012-09-17T11:59:00-06:00</updated>
+    <updated>2012-09-17T11:59:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/17/javazone-2012</id>
     <content type="html"><![CDATA[<p>JavaZone 2012 is in the books now. I don&#8217;t mind saying I <em>love</em> that show and the city it&#8217;s in. Oslo might be an expensive place to visit, but it makes up for it by being beautiful and generally easy to get around.</p>
 
@@ -176,7 +564,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
-    <updated>2012-08-20T09:52:00-06:00</updated>
+    <updated>2012-08-20T09:52:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
     <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn&#8217;t able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
 
@@ -189,7 +577,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-06:00</updated>
+    <updated>2012-08-03T08:51:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
@@ -459,7 +847,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[I Am a GitHubber]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-06:00</updated>
+    <updated>2012-08-01T14:22:00+01:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
     <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 
