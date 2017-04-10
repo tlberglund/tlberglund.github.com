@@ -4,7 +4,7 @@
   <title><![CDATA[Category: video | TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/blog/categories/video/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2016-06-03T06:05:27+01:00</updated>
+  <updated>2017-04-10T08:26:00-07:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Rime of the Product Manager]]></title>
-    <link href="http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager/"/>
-    <updated>2016-05-22T08:56:00+01:00</updated>
-    <id>http://tlberglund.github.com/blog/2016/05/22/the-rime-of-the-product-manager</id>
+    <link href="http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager/"/>
+    <updated>2016-06-03T08:56:00-07:00</updated>
+    <id>http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://timberglund.com/blog/2012/08/03/the-maven/"><em>The Maven</em></a>, I started thinking about what poem I would hack next. I didn't intend to land on <a href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">another Romantic</a>--allegedly I do not even like the Romantics very much--but then the title just came to me one day. I want to say "and then the rest happened quickly," but in fact principal photography took place over a total of four days spread over more than two years. Editing and the <a href="https://zachberglund.com">the composer's</a> work came together quite a bit more quickly than that, and only at that point could the rest be declared to be history.</p>
 
 <p>My plan for <em>Rime</em> was to produce a more complex film with multiple sets and multiple actors. This is a difficult undertaking for professionals, much less unschooled hacks who are trying to produce the least amateurish artifact they possibly can. I can say two things about the process: it is apparently difficult to get right, and it is one of the most enjoyable things I do.</p>
@@ -222,7 +222,7 @@ He rose the morrow morn.
   <entry>
     <title type="html"><![CDATA[Journey Zone 2015: PolarZone]]></title>
     <link href="http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone/"/>
-    <updated>2015-12-14T07:25:00+00:00</updated>
+    <updated>2015-12-14T07:25:00-08:00</updated>
     <id>http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone</id>
     <content type="html"><![CDATA[<p>The <a href="http://2015.javazone.no/">2015 JavaZone</a> was the same amazing event it always is: world-class speakers, JavaZone's ground-breaking <em>continuous food</em> concept, and an expo floor that's actually fun to walk around. Like any great conference, it's a place to learn and reconnect with friends—some whom I only get to see once a year.</p>
 
@@ -235,7 +235,7 @@ He rose the morrow morn.
   <entry>
     <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
-    <updated>2012-09-30T20:33:00+01:00</updated>
+    <updated>2012-09-30T20:33:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
     <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
 
@@ -248,7 +248,7 @@ He rose the morrow morn.
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00+01:00</updated>
+    <updated>2012-08-03T08:51:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You'll Compose</a> last year, I started casting about for what I'd do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 

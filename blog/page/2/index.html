@@ -9,7 +9,7 @@
   <meta name="author" content="Tim Berglund">
 
   
-  <meta name="description" content="I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit &hellip;">
+  <meta name="description" content="After I wrote Oh, The Methods You&#8217;ll Compose last year, I started casting about for what I&#8217;d do next. I had just finished writing &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -100,6 +100,305 @@ $(document).ready(function() {
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/08/03/the-maven/">The Maven</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-03T08:51:00-07:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2012</time>
+        
+         | <a href="/blog/2012/08/03/the-maven/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
+
+<p>A long and interesting history, as it turns out. One filled with glued-on muttonchops, an awesome sister who knows far too much about period costumes and has more 19th-century-looking artifacts lying around her house than ought to be allowed, and a son who shows no small amount of promise as a composer. It is therefore with great pride that I present to you <em>The Maven</em>:</p>
+
+<iframe width="640" height="510" src="http://www.youtube.com/embed/mBmExt184vc " frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Full Text of <em>The Maven</em></h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Once upon a midnight dreary, while I pondered weak and weary,
+</span><span class='line'>Over files from a project which I'd never built before,
+</span><span class='line'>While I nodded, nearly napping, suddenly the build was crapping,
+</span><span class='line'>As if some build script's code was jacking, jacking up my source code store
+</span><span class='line'>"'Tis a little bug," I muttered, "crapping on my source code store—
+</span><span class='line'>Only this, and nothing more."
+</span><span class='line'>
+</span><span class='line'>Ah, distinctly I remember I was just a junior member,
+</span><span class='line'>Of a staff who counted building code as something to ignore
+</span><span class='line'>An open-source solution neatly I had sought to use completely
+</span><span class='line'>In vain hope that I deplete the problems in my source code store—
+</span><span class='line'>To fix the troubled build that kept a hold on my poor source code store—
+</span><span class='line'>My broken build, for evermore.
+</span><span class='line'>
+</span><span class='line'>And the sullen sad surrender of my servers to the end of
+</span><span class='line'>Days when code would build had lent me terrors never felt before
+</span><span class='line'>So that now, to still the beating of my heart, I stood repeating
+</span><span class='line'>"'Tis some little bug entreating entrance to my source code store—
+</span><span class='line'>Some little bug entreating entrance to my source code store—
+</span><span class='line'>Only this, and nothing more,"
+</span><span class='line'>
+</span><span class='line'>Presently I took to guessing how my build script might be messing
+</span><span class='line'>Messing up the build I thought should work as in the days of yore
+</span><span class='line'>But the fact is I was coding, not counting on the foul foreboding
+</span><span class='line'>Of a Tool now overgrowing the bound'ries of its building chore
+</span><span class='line'>It made its mark upon my code beyond its humble building chore
+</span><span class='line'>It owned my build, still wanting more
+</span><span class='line'>
+</span><span class='line'>Deep into the POM file peering, long I stood there wondering, fearing,
+</span><span class='line'>Doubting, dreaming dreams no coder ever dared to dream before;
+</span><span class='line'>But the silence was unbroken (the error message gave no token),
+</span><span class='line'>And my greatest fear unspoken was if again I'd have control
+</span><span class='line'>Could I again believe myself to be the one who had control?
+</span><span class='line'>To own my build, and nothing more?
+</span><span class='line'>
+</span><span class='line'>Back unto my laptop turning, all my soul within me burning,
+</span><span class='line'>Soon again the build was crapping somewhat harder than before.
+</span><span class='line'>"Surely," said I, "surely that is what happens when a depend'ncy graph is
+</span><span class='line'>Stretched until the length of path is b’yond what man has seen before
+</span><span class='line'>Let me see what jars are needed, and their dependencies explore—
+</span><span class='line'>'Tis just the jars and nothing more!
+</span><span class='line'>
+</span><span class='line'>"Now adopted as our standard to build each project I commanded
+</span><span class='line'>Maven be the tool that we would use to ease our building chore
+</span><span class='line'>Straight away it took to forcing us to follow, not endorsing
+</span><span class='line'>Its coerc’d opinions now divorcing sense from all my source code store
+</span><span class='line'>It took control of every build inside my troubled source code store
+</span><span class='line'>I built with Maven, evermore
+</span><span class='line'>
+</span><span class='line'>From the enterprise beguiling this tool my fancy into smiling,
+</span><span class='line'>By the standard settings and conventions rigid that it bore,
+</span><span class='line'>"Though thy brackets angled, Maven, thou," I said, "art sure no craven.
+</span><span class='line'>Mayhap you'd ease the maintenance of my builds and their Sis'phean chore
+</span><span class='line'>Tell me, can you ease the burden of my Sisyphean chore?"
+</span><span class='line'>Quoth the Maven, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>Much I marveled this ungainly tool to hear discourse so plainly,
+</span><span class='line'>Though its answer little meaning—little relevancy bore;
+</span><span class='line'>For we cannot help agreeing that no living human being
+</span><span class='line'>Ever yet was blessed with speaking tools within his source code store—
+</span><span class='line'>Tool or script within the central repo of his source code store,
+</span><span class='line'>With such name as "Nevermore."
+</span><span class='line'>
+</span><span class='line'>But the Maven chosen boldly as our standard now spoke only
+</span><span class='line'>That one word, as if its soul in that one word it did outpour.
+</span><span class='line'>No more meaning then it printed—though its output scrolled and dinted—
+</span><span class='line'>Till I scarcely more than hinted "Other builds I've built before;
+</span><span class='line'>On the morrow it will leave me, as my builds have failed before."
+</span><span class='line'>Then the tool said, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>Startled at the stillness broken by reply so aptly spoken,
+</span><span class='line'>"Doubtless," said I, "what it utters is its only stock and store,
+</span><span class='line'>Written by a tortured coder whose melancholy's only token
+</span><span class='line'>Left both code and coder broken till his tool one burden bore—
+</span><span class='line'>Till the dirges of his hope that melancholy burden bore
+</span><span class='line'>Of 'Never-nevermore.'
+</span><span class='line'>
+</span><span class='line'>"But the Maven still beguiling all my sad soul into smiling,
+</span><span class='line'>Straight I wheeled a cushioned seat in front of build and editor;
+</span><span class='line'>Then, upon the vinyl sinking, I betook myself to linking
+</span><span class='line'>Fancy unto fancy, thinking what this ominous tool of yore—
+</span><span class='line'>What this grim, ungainly, ghastly, gaunt, and ominous tool of yore
+</span><span class='line'>Meant in croaking "Nevermore."
+</span><span class='line'>
+</span><span class='line'>Thus I sat engaged in guessing, but no syllable expressing
+</span><span class='line'>To the tool whose fiery eyes now burned into my coder's core;
+</span><span class='line'>This and more I sat divining, with my head at ease reclining
+</span><span class='line'>On the Aeron's vinyl lining which the backlight gloated o'er,
+</span><span class='line'>But whose charcoal vinyl lining which the backlight gloated o'er,
+</span><span class='line'>My code shall see, ah, nevermore!
+</span><span class='line'>
+</span><span class='line'>Then, methought, the air grew denser, perfumed by an unseen censer
+</span><span class='line'>And dependencies whose downloads glut my cache, and even more.
+</span><span class='line'>"Wretch!" I cried, "VanZyl hath lent you—by these downloads he has sent you
+</span><span class='line'>Respite, respite! and some Red Bull from my cursed source code store
+</span><span class='line'>Quaff, oh quaff this can of Red Bull, and forget this source code store!"
+</span><span class='line'>Quoth the Maven, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>"Prophet!" said I, "thing of evil!—prophet still, build tool or devil!
+</span><span class='line'>Whether useful tool, or whether bane of every coder on this floor
+</span><span class='line'>Desolate yet all undaunted, on this code base yet enchanted—
+</span><span class='line'>On this build by horror haunted—tell me truly, I implore—
+</span><span class='line'>Is there a tool that would not own me? Tell me, tell me, I implore!"
+</span><span class='line'>Quoth the Maven, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>"Prophet!" said I, "thing of evil! Prophet still, build tool or devil!
+</span><span class='line'>By that Heaven that bends above us—by that God we both adore—
+</span><span class='line'>Tell this soul with sorrow laden if, by building with the Maven,
+</span><span class='line'>Shall I never make the claim that I retain just some control?
+</span><span class='line'>Could some little token of my build remain in my control?"
+</span><span class='line'>Quoth the Maven, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>"Be that word our sign of parting, building fiend!" I shrieked upstarting—
+</span><span class='line'>"Get thee back to Sonatype deep in the night's Plutonian shore!
+</span><span class='line'>Leave no jar file as a token of that lie thy soul hath spoken!
+</span><span class='line'>Leave my project's build unbroken!—quit my central source code store!
+</span><span class='line'>Take thy POM from out my heart, and take thy cache from my code store!
+</span><span class='line'>"Quoth the Maven, "Nevermore."
+</span><span class='line'>
+</span><span class='line'>And the Maven, never quitting, still is sitting, still is sitting
+</span><span class='line'>In that pallid project's repo deep inside my source code store;
+</span><span class='line'>Its POM files' eyes have all the seeming of a demon's that is dreaming,
+</span><span class='line'>And the backlight o'er me streaming throws my shadow on the floor;
+</span><span class='line'>And my soul from out that shadow that lies floating on the floor
+</span><span class='line'>Shall be lifted—nevermore!</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now would probably be a good time to re-read the full text of <a href="http://poestories.com/read/raven">the original work</a>. It&#8217;s truly a brilliant poem, without which this remix would not have been possible.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article class="hand-drawn-box">
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/08/01/i-am-a-githubber/">I Am a GitHubber</a></h1>
     
     
@@ -116,7 +415,7 @@ $(document).ready(function() {
   
 
 
-<time datetime="2012-08-01T14:22:00+01:00" pubdate data-updated="true">Aug 1<span>st</span>, 2012</time>
+<time datetime="2012-08-01T14:22:00-07:00" pubdate data-updated="true">Aug 1<span>st</span>, 2012</time>
         
          | <a href="/blog/2012/08/01/i-am-a-githubber/#disqus_thread">Comments</a>
         
@@ -171,7 +470,11 @@ $(document).ready(function() {
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2016/05/22/the-rime-of-the-product-manager/">The Rime of the Product Manager</a>
+        <a href="/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent/">Getting Fitted for a New Hoodie: DevX at Confluent</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/06/03/the-rime-of-the-product-manager/">The Rime of the Product Manager</a>
       </li>
     
       <li class="post">
@@ -186,10 +489,6 @@ $(document).ready(function() {
         <a href="/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/">I Wandered Lonely As a Cloud App</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/03/31/goodbye-github-hello-datastax/">Goodbye, GitHub; Hello, DataStax</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -199,7 +498,7 @@ $(document).ready(function() {
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2016 - Tim Berglund -
+  Copyright &copy; 2017 - Tim Berglund -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

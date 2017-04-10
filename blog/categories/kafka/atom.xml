@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Kafka | TimBerglund.com]]></title>
+  <link href="http://tlberglund.github.com/blog/categories/kafka/atom.xml" rel="self"/>
+  <link href="http://tlberglund.github.com/"/>
+  <updated>2017-04-10T08:26:00-07:00</updated>
+  <id>http://tlberglund.github.com/</id>
+  <author>
+    <name><![CDATA[Tim Berglund]]></name>
+    <email><![CDATA[tlberglund@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Fitted for a New Hoodie: DevX at Confluent]]></title>
+    <link href="http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent/"/>
+    <updated>2017-04-10T08:12:00-07:00</updated>
+    <id>http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent</id>
+    <content type="html"><![CDATA[<p>Over the past year I’ve developed a pretty crisp vision for what Developer Relations ought to be. Organizationally speaking, it’s a team that couples a technology company to the developers who consume its product. But it's also a world-class training team. It’s technology evangelism. It’s focused, correct, accessible documentation. It’s community. It’s relevant, professional sample code. It’s next-level online learning. It’s anything a developer needs to be successful using a technology company’s products.</p>
+
+<p>And more than that, it’s personality. There is no single technology a developer can adopt that does not have alternatives, and to win in the marketplace, functionality matters, performance matters, and easily accessible learning pathways matter. But most people don’t make choices based on the figure of merit their bakeoff spreadsheet calculated. People make choices based on what kind of people they aspire to be. It’s not enough for a DevRel team to deliver on community, evangelism, and education: DevRel must also project a personality. It must be collectively the kind of person developers themselves aspire, in one way or another, to be.</p>
+
+<p>It’s a liberating thing to have some clarity about the professional mission you want to accomplish. Once I had the picture in my head and realized I was pretty well equipped to carry it out, I wanted to find a company that not only shared the vision, and was not just willing to execute on it, but was downright <em>eager</em> to. The executive team at Confluent convinced me that they were just such a team, and I suppose I convinced them that I was the guy to lead the effort. Starting today, I am Senior Director of Developer Experience for Confluent. We're calling it "DevX" for short, for obvious reasons of coolness.</p>
+
+<p>I’ve told my non-tech friends that, apart from the logo on the hoodie, they won’t notice any difference in the new job on a personal basis. I’ll still travel a lot, speak a lot, and run a team. I’m still working with vaguely computery things. Peeking under the hood a little bit, I’m moving from one data-related Apache project to another data-related (frequently complimentary) Apache project. I am in a real sense just getting fitted for a new hoodie—but of course there is so much more in the move than first meets the eye.</p>
+
+<p>It should not go without saying that I realize what a gift it is even to be able to have this conversation with myself. Plenty of people in the developed world are just trying to make a buck, and aren’t thinking about how to craft a role that provides them with the greatest possible sense of autonomy, mastery, and purpose (thereby maximizing their intrinsic motivation) with the greatest organizational-vision alignment they can manage. And while the developing world is enjoying a tremendous boost in prosperity over the last two or three decades, most of its citizens are also not thinking about how they can best follow their passion—unless that passion is clean water and a minimal education for their children. All of this job satisfaction talk is tech industry Valley-Speak. Most of the factors that makes it possible are not choices in which I exercised any agency.</p>
+
+<p>But still. I'm thrilled I get to do this work, and excited to get started doing it today with Confluent. There is much ground to cover, and the world is not standing still. <em>Let's do this</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>
