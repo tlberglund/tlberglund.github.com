@@ -4,7 +4,7 @@
   <title><![CDATA[TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2017-04-10T08:26:00-07:00</updated>
+  <updated>2020-04-16T09:52:33-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -14,9 +14,64 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Make the Most of Home Office Video Calls]]></title>
+    <link href="http://tlberglund.github.com/blog/2020/04/14/make-the-most-of-home-office-video-calls/"/>
+    <updated>2020-04-14T10:23:00-06:00</updated>
+    <id>http://tlberglund.github.com/blog/2020/04/14/make-the-most-of-home-office-video-calls</id>
+    <content type="html"><![CDATA[<p>Suddenly everybody is working from home and on video calls <em>all the time</em>. This has been my life for years (when I&#8217;m not on the road, that is), and because I&#8217;m also a video hobbyist, it might not come as a total surprise that I have slightly overdone my home office video seutp. I get questions about it from time to time, so I figured I&#8217;d finally put together the video I&#8217;ve been threatening to do for years.</p>
+
+<p>And hey, how timely! We&#8217;re all working from home in the past month, with no clear idea for how much longer that will last. And because people at work often ask me about my setup, I figured I&#8217;d put together some tips for how to do video calls from home. It&#8217;s all in the video, but I suggest three phases of home office video setup development:</p>
+
+<ol>
+<li>Just use your laptop webcam, but face a window</li>
+<li>Get a ring light or a softbox</li>
+<li>Go completely insane</li>
+</ol>
+
+
+<iframe width="640" height="510" src="http://www.youtube.com/embed/yhzzfg1TH9E [center] 600x338 " frameborder="0" allowfullscreen></iframe>
+
+
+<p>In the video, I promised a link to actual things you could order (as of the time of this writing), which I&#8217;ve given below. You might notice the jump between the cost of phase two and phase three is a lot of money, and, well, you&#8217;re right. There are varioius reasons why the middle ground is sparse here, and I may address them in a subsequent video. Just know that I&#8217;m not purposely overlooking a sensible middle ground. Video is funny this way.</p>
+
+<h2>PHASE ONE</h2>
+
+<ul>
+<li>No purchase necessary—if you have windows and can work near them</li>
+</ul>
+
+
+<h2>PHASE TWO</h2>
+
+<ul>
+<li><a href="https://www.bhphotovideo.com/c/product/1490918-REG/gvm_gvm_hd_18s_gvm_hd_18s_55w_bc.html">Ring light</a></li>
+<li><a href="https://www.amazon.com/Neewer-Professional-Photography-Centimeters-Lighting/dp/B017D7W57S">Low-cost softbox kit</a></li>
+<li>A better webcam? Honestly probably not.</li>
+</ul>
+
+
+<h2>PHASE THREE (do not attempt)</h2>
+
+<ul>
+<li><a href="https://www.amazon.com/Neewer-Professional-Photography-Centimeters-Lighting/dp/B017D7W57S">Low-cost softbox kit</a> (if you didn&#8217;t buy it in phase two)</li>
+<li><a href="https://www.bhphotovideo.com/c/product/1476241-REG/gvm_gvm_560as_30w_14_8v_110_130_2300_6800k.html">LED Panel</a> for backlight and color splash</li>
+<li><a href="https://www.bhphotovideo.com/c/product/1401512-REG/blackmagic_design_pocket_cinema_camera_4k.html">Blackmagic Pocket Cinema Camera 4K</a></li>
+<li><a href="https://www.bhphotovideo.com/c/product/855215-REG/Voigtlander_BA175M_Nokton_17_5mm_f_0_95_Lens.html">Voigtlander MFT 17.5mm f/0.95</a></li>
+<li><a href="https://www.bhphotovideo.com/c/product/1105735-REG/magewell_xi_100_d_usb_hdmi_one_hd_hdmi_usb.html">Magewell USB Capture HDMI</a> for getting HDMI camera output into your computer</li>
+<li><a href="https://www.bhphotovideo.com/c/product/1100309-REG/rosco_110124120001_color_effects_filter_kit.html">Gel kit</a> for backlight and background color</li>
+<li><a href="https://www.bhphotovideo.com/c/product/1308954-REG/impact_srp_122p_wall_plate_with_1.html">Wall plate with 1 1/8&#8221; receiver</a> for mounting the softbox to the ceiling</li>
+<li><a href="https://www.bhphotovideo.com/c/product/860779-REG/impact_cc_130_pipe_clamp_with_baby.html">Pipe clamp</a> for mounting softbox to pipe</li>
+<li><a href="https://www.bhphotovideo.com/c/product/857317-REG/impact_srp_121_baby_drop_down_pin.html">Baby drop-down pin</a> for positioning softbox on mount</li>
+<li><a href="https://www.bhphotovideo.com/c/product/1305586-REG/impact_srp_115p_3_baby_pin_wall.html">Baby pin wall plate</a> for mounting LED panel to ceiling</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Getting Fitted for a New Hoodie: DevX at Confluent]]></title>
     <link href="http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent/"/>
-    <updated>2017-04-10T08:12:00-07:00</updated>
+    <updated>2017-04-10T08:12:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent</id>
     <content type="html"><![CDATA[<p>Over the past year I’ve developed a pretty crisp vision for what Developer Relations ought to be. Organizationally speaking, it’s a team that couples a technology company to the developers who consume its product. But it&#8217;s also a world-class training team. It’s technology evangelism. It’s focused, correct, accessible documentation. It’s community. It’s relevant, professional sample code. It’s next-level online learning. It’s anything a developer needs to be successful using a technology company’s products.</p>
 
@@ -35,7 +90,7 @@
   <entry>
     <title type="html"><![CDATA[The Rime of the Product Manager]]></title>
     <link href="http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager/"/>
-    <updated>2016-06-03T08:56:00-07:00</updated>
+    <updated>2016-06-03T08:56:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://timberglund.com/blog/2012/08/03/the-maven/"><em>The Maven</em></a>, I started thinking about what poem I would hack next. I didn&#8217;t intend to land on <a href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">another Romantic</a>&#8211;allegedly I do not even like the Romantics very much&#8211;but then the title just came to me one day. I want to say &#8220;and then the rest happened quickly,&#8221; but in fact principal photography took place over a total of four days spread over more than two years. Editing and the <a href="https://zachberglund.com">the composer&#8217;s</a> work came together quite a bit more quickly than that, and only at that point could the rest be declared to be history.</p>
 
@@ -423,7 +478,7 @@
   <entry>
     <title type="html"><![CDATA[Stopping by the Training Room on a Snowy Morning]]></title>
     <link href="http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning/"/>
-    <updated>2016-05-03T05:47:00-07:00</updated>
+    <updated>2016-05-03T05:47:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning</id>
     <content type="html"><![CDATA[<p>With apologies, as usual, to the <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/42891">original author</a>:</p>
 
@@ -452,7 +507,7 @@ And miles to earn before I sleep</p>
   <entry>
     <title type="html"><![CDATA[Journey Zone 2015: PolarZone]]></title>
     <link href="http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone/"/>
-    <updated>2015-12-14T07:25:00-08:00</updated>
+    <updated>2015-12-14T07:25:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2015/12/14/journey-zone-2015-polarzone</id>
     <content type="html"><![CDATA[<p>The <a href="http://2015.javazone.no/">2015 JavaZone</a> was the same amazing event it always is: world-class speakers, JavaZone&#8217;s ground-breaking <em>continuous food</em> concept, and an expo floor that&#8217;s actually fun to walk around. Like any great conference, it&#8217;s a place to learn and reconnect with friends—some whom I only get to see once a year.</p>
 
@@ -466,7 +521,7 @@ And miles to earn before I sleep</p>
   <entry>
     <title type="html"><![CDATA[I Wandered Lonely As a Cloud App]]></title>
     <link href="http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/"/>
-    <updated>2015-11-09T06:30:00-08:00</updated>
+    <updated>2015-11-09T06:30:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app</id>
     <content type="html"><![CDATA[<p>I wandered lonely as a cloud app<br/>
 Late of Heroku purchases<br/>
@@ -505,7 +560,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Goodbye, GitHub; Hello, DataStax]]></title>
     <link href="http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax/"/>
-    <updated>2014-03-31T08:21:00-07:00</updated>
+    <updated>2014-03-31T08:21:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2014/03/31/goodbye-github-hello-datastax</id>
     <content type="html"><![CDATA[<p>I&#8217;ve had a great time at GitHub over the past year and a half. I&#8217;ve traveled to plenty of interesting places, taught thousands of developers how to do a better job working together, and learned quite a bit myself from GitHub&#8217;s unique approach to organizational structure. It&#8217;s a tautology to say that the experience has changed me, but I think time will reveal that it has changed me in important ways. Hopefully I can write about some of this in the future.</p>
 
@@ -520,7 +575,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Speaking at DJUG Next Week]]></title>
     <link href="http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week/"/>
-    <updated>2012-10-04T11:43:00-07:00</updated>
+    <updated>2012-10-04T11:43:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/10/04/speaking-at-djug-next-week</id>
     <content type="html"><![CDATA[<p>There&#8217;s nothing quite like a home game, so I must say I&#8217;m happy to be speaking at <a href="http://denverjug.org">DJUG</a> next week on Wednesday, October 10, 2012. The topic will be GitHub Power Tools, including such amazing topics as:</p>
 
@@ -544,7 +599,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[SurvivorZone Documentary]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary/"/>
-    <updated>2012-09-30T20:33:00-07:00</updated>
+    <updated>2012-09-30T20:33:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/30/survivorzone-documentary</id>
     <content type="html"><![CDATA[<p>I mentioned in my <a href="http://timberglund.com/blog/2012/09/17/javazone-2012/">last post</a> that JourneyZone had a few surprises this year—which surprises should perhaps not be all that surprising, given that we were riding mountain bikes in the same part of Norway that served as the <a href="http://images.wikia.com/starwars/images/c/cd/0_gps2.jpg">location for the Hoth scenes</a> in <em>The Empire Strikes Back</em>. (Thanks to <a href="http://blog.evilmonkeylabs.com/">Brendan McAdams</a> for that link.)</p>
 
@@ -558,7 +613,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[JavaZone 2012]]></title>
     <link href="http://tlberglund.github.com/blog/2012/09/17/javazone-2012/"/>
-    <updated>2012-09-17T11:59:00-07:00</updated>
+    <updated>2012-09-17T11:59:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/09/17/javazone-2012</id>
     <content type="html"><![CDATA[<p>JavaZone 2012 is in the books now. I don&#8217;t mind saying I <em>love</em> that show and the city it&#8217;s in. Oslo might be an expensive place to visit, but it makes up for it by being beautiful and generally easy to get around.</p>
 
@@ -583,7 +638,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[Cassandra MVP Achievement Unlocked]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked/"/>
-    <updated>2012-08-20T09:52:00-07:00</updated>
+    <updated>2012-08-20T09:52:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/20/cassandra-mvp-achievement-unlocked</id>
     <content type="html"><![CDATA[<p>I was more than a little bit jazzed a couple of weeks ago when <a href="http://datastax.com">DataStax</a> announced that I had been nominated as a <a href="http://www.datastax.com/mvp">Cassandra MVP</a> for the 2012-2013 term. I wasn&#8217;t able to be at the Cassandra Summit to receive the designation in person, but I was no less grateful for it.</p>
 
@@ -596,7 +651,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-07:00</updated>
+    <updated>2012-08-03T08:51:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You&#8217;ll Compose</a> last year, I started casting about for what I&#8217;d do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 
@@ -866,7 +921,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[I Am a GitHubber]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber/"/>
-    <updated>2012-08-01T14:22:00-07:00</updated>
+    <updated>2012-08-01T14:22:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/01/i-am-a-githubber</id>
     <content type="html"><![CDATA[<p>I started my consulting business five years ago so I could upgrade my computer more often and go to more conferences. Okay, that&#8217;s a little bit of an exaggeration; not all of my concerns were so quotidian. I had also run out of opportunities for technical growth at that company, and didn&#8217;t want to become obsolete in my mid-30s. So I went into business for myself. I named the company after a <a href="http://en.wikipedia.org/wiki/Augustine_of_Hippo">Church Father</a> of whom I happen to be a moderate fanboy.</p>
 

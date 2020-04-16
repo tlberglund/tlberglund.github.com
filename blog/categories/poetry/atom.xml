@@ -4,7 +4,7 @@
   <title><![CDATA[Category: poetry | TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/blog/categories/poetry/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2017-04-10T08:26:00-07:00</updated>
+  <updated>2020-04-16T09:52:33-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Rime of the Product Manager]]></title>
     <link href="http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager/"/>
-    <updated>2016-06-03T08:56:00-07:00</updated>
+    <updated>2016-06-03T08:56:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2016/06/03/the-rime-of-the-product-manager</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://timberglund.com/blog/2012/08/03/the-maven/"><em>The Maven</em></a>, I started thinking about what poem I would hack next. I didn't intend to land on <a href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge">another Romantic</a>--allegedly I do not even like the Romantics very much--but then the title just came to me one day. I want to say "and then the rest happened quickly," but in fact principal photography took place over a total of four days spread over more than two years. Editing and the <a href="https://zachberglund.com">the composer's</a> work came together quite a bit more quickly than that, and only at that point could the rest be declared to be history.</p>
 
@@ -222,7 +222,7 @@ He rose the morrow morn.
   <entry>
     <title type="html"><![CDATA[Stopping by the Training Room on a Snowy Morning]]></title>
     <link href="http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning/"/>
-    <updated>2016-05-03T05:47:00-07:00</updated>
+    <updated>2016-05-03T05:47:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2016/05/03/stopping-by-the-training-room-on-a-snowy-morning</id>
     <content type="html"><![CDATA[<p>With apologies, as usual, to the <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/42891">original author</a>:</p>
 
@@ -251,7 +251,7 @@ And miles to earn before I sleep</p>
   <entry>
     <title type="html"><![CDATA[I Wandered Lonely As a Cloud App]]></title>
     <link href="http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app/"/>
-    <updated>2015-11-09T06:30:00-08:00</updated>
+    <updated>2015-11-09T06:30:00-07:00</updated>
     <id>http://tlberglund.github.com/blog/2015/11/09/i-wandered-lonely-as-a-cloud-app</id>
     <content type="html"><![CDATA[<p>I wandered lonely as a cloud app<br/>
 Late of Heroku purchases<br/>
@@ -290,7 +290,7 @@ The sorrow of the services.</p>
   <entry>
     <title type="html"><![CDATA[The Maven]]></title>
     <link href="http://tlberglund.github.com/blog/2012/08/03/the-maven/"/>
-    <updated>2012-08-03T08:51:00-07:00</updated>
+    <updated>2012-08-03T08:51:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2012/08/03/the-maven</id>
     <content type="html"><![CDATA[<p>After I wrote <a href="http://www.augusttechgroup.com/tim/blog/2011/05/12/oh-the-methods-youll-compose/">Oh, The Methods You'll Compose</a> last year, I started casting about for what I'd do next.  I had just finished writing <a href="http://shop.oreilly.com/product/0636920019909.do">Building and Testing With Gradle</a> with <a href="http://www.linkedin.com/in/matthewatambientideas">Matthew</a>, so JVM build tools were on my mind (and in the case of <a href="http://gradle.org">Gradle</a>, they still are). Standing in my kitchen one spring day, not thinking about anything in particular, it hit me that <em>Maven</em> rhymes with <em>Raven</em>. The rest is, of course, history.</p>
 

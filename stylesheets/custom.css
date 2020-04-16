@@ -14,3 +14,11 @@
 .entry-content {
   margin-bottom: 2em;
 }
+
+.entry-content ol {
+  margin-left: 2em;
+}
+
+.entry-content ul {
+  margin-left: 2em;
+}

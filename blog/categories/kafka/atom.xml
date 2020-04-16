@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kafka | TimBerglund.com]]></title>
   <link href="http://tlberglund.github.com/blog/categories/kafka/atom.xml" rel="self"/>
   <link href="http://tlberglund.github.com/"/>
-  <updated>2017-04-10T08:26:00-07:00</updated>
+  <updated>2020-04-16T09:52:33-06:00</updated>
   <id>http://tlberglund.github.com/</id>
   <author>
     <name><![CDATA[Tim Berglund]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Getting Fitted for a New Hoodie: DevX at Confluent]]></title>
     <link href="http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent/"/>
-    <updated>2017-04-10T08:12:00-07:00</updated>
+    <updated>2017-04-10T08:12:00-06:00</updated>
     <id>http://tlberglund.github.com/blog/2017/04/10/getting-fitted-for-a-new-hoodie-devx-at-confluent</id>
     <content type="html"><![CDATA[<p>Over the past year I’ve developed a pretty crisp vision for what Developer Relations ought to be. Organizationally speaking, it’s a team that couples a technology company to the developers who consume its product. But it's also a world-class training team. It’s technology evangelism. It’s focused, correct, accessible documentation. It’s community. It’s relevant, professional sample code. It’s next-level online learning. It’s anything a developer needs to be successful using a technology company’s products.</p>
 
